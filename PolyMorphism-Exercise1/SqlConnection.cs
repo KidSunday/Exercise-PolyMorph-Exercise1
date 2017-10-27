@@ -10,9 +10,8 @@ namespace PolyMorphism_Exercise1
         }
         public override void Open()
         {
-            Console.WriteLine("SQL Connection Open using string: {0}", ConnectionString);
-            Console.WriteLine("Connection Will TimeOut in: {0} seconds", Timeout.TotalSeconds);
-            
+            Console.WriteLine("SQL Connection Openned using string: {0}", ConnectionString);
+            Console.WriteLine("Connection Will Timeout in: {0} seconds", Timeout.TotalSeconds);
         }
 
         public override void Close()

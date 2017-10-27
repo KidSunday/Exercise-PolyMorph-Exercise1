@@ -14,7 +14,7 @@ namespace PolyMorphism_Exercise1
                 throw new ArgumentException("Connection String NULL or Empty");
             }
             this.ConnectionString = connectString;
-            Timeout = new TimeSpan(0, 1, 1);
+            //Timeout = new TimeSpan(0, 1, 1);
         }
 
         public abstract void Open();

@@ -10,7 +10,7 @@ namespace PolyMorphism_Exercise1
         }
         public override void Open()
         {
-            Console.WriteLine("Oracle Connection Open using string: {0}", ConnectionString);
+            Console.WriteLine("Oracle Connection Openned using string: {0}", ConnectionString);
             Console.WriteLine("Connection Will TimeOut in: {0} seconds", Timeout.TotalSeconds);
         }
 
